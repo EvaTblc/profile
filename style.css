@@ -1,0 +1,101 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+body {
+  background-color: #F6F4F3;
+  color: #1D2D44;
+  font-family: 'PT Serif', serif;;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+h1, h3 {
+  color: #C19875;
+  font-family: 'Playfair Display', serif;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+}
+
+a {
+  color:#2A0800;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #28AFB0;
+  transition: 0.5s;
+}
+
+button {
+  color: white;
+  background-color: #C09891;
+  border: 0.5px solid #DCDCDD;
+  padding: 10px 30px;
+  border-radius: 10%;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+.button {
+  margin: 15px auto;
+  text-align: center;
+  padding: 10px 30px;
+  border-radius: 10%;
+}
+
+#button-color:hover {
+  padding: 10px 30px;
+  margin: 15px auto;
+  transition: 1s
+}
+
+.container {
+  margin: 0 auto;
+  padding: 10px;
+  width: 500px;
+}
+
+.card {
+  background: white;
+  border: 1px solid #DCDCDD;
+  border-radius: 4%;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  text-align: center;
+  padding: 10px;
+  margin: 20px auto;
+}
+
+img {
+  width: 250px;
+  border-radius: 20%;
+}
+
+.list-inline > li {
+  display: inline-block;
+  text-align: center;
+  font-size: 30px;
+  padding: 0px 30px;
+  padding-left: 0px;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
